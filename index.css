@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #F4F0EC;
+}
+::-webkit-scrollbar-thumb {
+  background: #C69966;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9D6B77;
+}
+
+html { scroll-behavior: smooth; }
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
